@@ -1,0 +1,10 @@
+**/.idea
+**/__pycache__
+**/.ipynb_checkpoints
+pretrained/*
+data/train/*
+data/sbs/*
+!/data/sbs/*.sbs
+sbs
+!sbs/sbs_generators.py
+training-runs
