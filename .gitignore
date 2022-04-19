@@ -7,4 +7,5 @@ data/sbs/*
 !/data/sbs/*.sbs
 sbs
 !sbs/sbs_generators.py
+!sbs/differentiable_generator.py
 training-runs
