@@ -4,8 +4,8 @@
 pretrained/*
 data/train/*
 data/sbs/*
+sbs/*
+training-runs
 !/data/sbs/*.sbs
-sbs
 !sbs/sbs_generators.py
 !sbs/differentiable_generator.py
-training-runs
