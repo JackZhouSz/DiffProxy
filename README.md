@@ -1,5 +1,11 @@
 # Node Graph Optimization Using Differentiable Proxies
-This repo contains code for "Node Graph Optimization Using Differentiable Proxies"
+An improved node graph optimization method for inverse procedural material modeling.
+![teaser](teaser.png)
+
+Yiwei Hu, Paul Guerrero, Miloš Hašan, Holly Rushmeier, Valentin Deschaintre
+
+In SIGGRAPH '22 Conference Processing, Vancouver, BC, Canada, 2022. [[Project page]](https://yiweihu.netlify.app/project/hu2022diff/)
+
 ## Requirements
 See requirements for StyleGAN2: https://github.com/NVlabs/stylegan2-ada. 
 If you want to synthesize your own data for a Substance generator, please install MATch(http://match.csail.mit.edu/) in the `./sbs` folder.
