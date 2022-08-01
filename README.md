@@ -55,5 +55,25 @@ After defining the sampling method, you should prepare a .sbs file similar to `.
 
 You should now be able to generate the data and train the networks. To test if the data is corrected generated, we recommend to first output a couple of mask maps (e.g. 128 or 256) to see if their general appearances looks reasonable. To see if your sampled parameters are correctly saved as a json file, you can specify `--verify=True` when you call `synthesis.py`. The program will re-generate all the mask maps to another folder based on the parameters your just sampled. This can help you examine whether the parameter you sampled and the generated mask map is a correct one-on-one mapping. Note `verify=True` should be only used for verification and prevent using it when you generating the whole dataset.
 
+## Citation
+```
+@inproceedings{hu2022diff,
+author = {Hu, Yiwei and Guerrero, Paul and Hasan, Milos and Rushmeier, Holly and Deschaintre, Valentin},
+title = {Node Graph Optimization Using Differentiable Proxies},
+year = {2022},
+isbn = {9781450393379},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3528233.3530733},
+doi = {10.1145/3528233.3530733},
+booktitle = {ACM SIGGRAPH 2022 Conference Proceedings},
+articleno = {5},
+numpages = {9},
+keywords = {inverse material modeling, procedural materials},
+location = {Vancouver, BC, Canada},
+series = {SIGGRAPH '22}
+}
+```
+
 ## Contact
 If you have any question, feel free to contact yiwei.hu@yale.edu
